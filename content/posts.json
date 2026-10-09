@@ -1,6 +1,14 @@
 {
   "posts": [
     {
+      "image": "/assets/uploads/sketch2.jpeg",
+      "date": "2026-09-28",
+      "title_en": "Early sketches",
+      "title_fr": "Premier croquis",
+      "text_en": "First draft to prototype the flying object",
+      "text_fr": "Premier brouillon pour prototyper l'object volant"
+    },
+    {
       "date": "2026-10-09",
       "title_en": "The team members",
       "title_fr": "Les membres de l'équipe",
@@ -19,14 +27,6 @@
       "image": "assets/uploads/photo-2026-10-04.jpg",
       "video": "",
       "instagram_url": ""
-    },
-    {
-      "image": "/assets/uploads/sketch2.jpeg",
-      "date": "2026-09-28",
-      "title_en": "Early sketches",
-      "title_fr": "Premier croquis",
-      "text_en": "First draft to prototype the flying object",
-      "text_fr": "Premier brouillon pour prototyper l'object volant"
     }
   ]
 }
