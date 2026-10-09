@@ -26,7 +26,18 @@
       "title_en": "Early sketches",
       "title_fr": "Premier croquis",
       "text_en": "First draft to prototype the flying object",
-      "text_fr": "Premier brouillon pour prototyper l'object volant"
+      "text_fr": "Premier brouillon pour prototyper l'object volant",
+      "media": [
+        {
+          "file": "/assets/uploads/profile.jpeg"
+        },
+        {
+          "file": "/assets/uploads/profile.jpeg"
+        },
+        {
+          "file": "/assets/uploads/sketch2.jpeg"
+        }
+      ]
     }
   ]
 }
