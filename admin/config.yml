@@ -8,7 +8,7 @@ public_folder: /assets/uploads
 publish_mode: simple
 
 collections:
-  # ---------- Posts du journal de bord ----------
+   # ---------- Posts du journal de bord ----------
   - name: posts
     label: "Posts (journal de bord)"
     files:
@@ -26,10 +26,15 @@ collections:
               - { label: "Titre (FR)", name: "title_fr", widget: "string" }
               - { label: "Texte (EN)", name: "text_en", widget: "text" }
               - { label: "Texte (FR)", name: "text_fr", widget: "text" }
-              - { label: "Photo", name: "image", widget: "image", required: false }
-              - { label: "Vidéo (fichier mp4 ou lien YouTube)", name: "video", widget: "string", required: false }
+              - label: "Médias (ajoute autant d'éléments que nécessaire)"
+                name: "media"
+                widget: "list"
+                required: false
+                summary: "{{fields.file}}{{fields.youtube}}"
+                fields:
+                  - { label: "Fichier (photo ou vidéo mp4)", name: "file", widget: "file", required: false }
+                  - { label: "OU lien YouTube", name: "youtube", widget: "string", required: false }
               - { label: "Lien Instagram du post", name: "instagram_url", widget: "string", required: false }
-
   # ---------- Équipe ----------
   - name: team
     label: "Équipe"
