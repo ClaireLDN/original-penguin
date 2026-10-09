@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "date": "2026-10-09",
+      "title_en": "The team members",
+      "title_fr": "Les membres de l'équipe",
+      "text_en": "A team is built to create the flugtag.",
+      "text_fr": "Une équipe se construit pour créer le Flugtag.",
+      "image": "assets/uploads/team-photo.png",
+      "video": "",
+      "instagram_url": ""
+    },
+    {
+      "date": "2026-10-04",
+      "title_en": "Day 1",
+      "title_fr": "Jour 1",
+      "text_en": "The team gets together for the first photo of the project.",
+      "text_fr": "L'équipe se réunit pour la première photo du projet.",
+      "image": "assets/uploads/photo-2026-10-04.jpg",
+      "video": "",
+      "instagram_url": ""
+    }
+  ]
+}

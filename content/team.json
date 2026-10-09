@@ -1,0 +1,9 @@
+{
+  "team": [
+    { "name": "Team member 1", "role_en": "Role to come", "role_fr": "Rôle à venir", "bio_en": "Bio coming soon.", "bio_fr": "Biographie bientôt disponible.", "photo": "assets/uploads/team-1.jpg" },
+    { "name": "Team member 2", "role_en": "Role to come", "role_fr": "Rôle à venir", "bio_en": "Bio coming soon.", "bio_fr": "Biographie bientôt disponible.", "photo": "assets/uploads/team-2.jpg" },
+    { "name": "Team member 3", "role_en": "Role to come", "role_fr": "Rôle à venir", "bio_en": "Bio coming soon.", "bio_fr": "Biographie bientôt disponible.", "photo": "assets/uploads/team-3.jpg" },
+    { "name": "Sebastien Onaze", "role_en": "Role to come", "role_fr": "Rôle à venir", "bio_en": "Bio coming soon.", "bio_fr": "Biographie bientôt disponible.", "photo": "assets/uploads/team-4.jpg" },
+    { "name": "Xavier Pons", "role_en": "Role to come", "role_fr": "Rôle à venir", "bio_en": "Bio coming soon.", "bio_fr": "Biographie bientôt disponible.", "photo": "assets/uploads/team-5.jpg" }
+  ]
+}
