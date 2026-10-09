@@ -1,80 +1,87 @@
-# Configuration Decap CMS pour le site Original Penguin
-# Le dépôt GitHub doit s'appeler exactement comme indiqué ci-dessous (ou modifier la ligne "repo").
 backend:
   name: git-gateway
   branch: main
-  repo: ClaireLDN/original-penguin
 
-# Dossier où sont stockées les photos et vidéos uploadées
 media_folder: assets/uploads
 public_folder: /assets/uploads
 
-# Mode de publication direct : chaque enregistrement est publié sur le site
 publish_mode: simple
 
 collections:
   # ---------- Posts du journal de bord ----------
   - name: posts
     label: "Posts (journal de bord)"
-    file: content/posts.json
-    fields:
+    files:
       - name: posts
         label: "Posts"
-        widget: list
-        summary: "{{fields.title_fr}} ({{fields.date}})"
+        file: content/posts.json
         fields:
-          - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false }
-          - { label: "Titre (EN)", name: "title_en", widget: "string" }
-          - { label: "Titre (FR)", name: "title_fr", widget: "string" }
-          - { label: "Texte (EN)", name: "text_en", widget: "text" }
-          - { label: "Texte (FR)", name: "text_fr", widget: "text" }
-          - { label: "Photo", name: "image", widget: "image", required: false }
-          - { label: "Vidéo (fichier mp4 ou lien YouTube)", name: "video", widget: "string", required: false }
-          - { label: "Lien Instagram du post", name: "instagram_url", widget: "string", required: false }
+          - name: posts
+            label: "Posts"
+            widget: list
+            summary: "{{fields.title_fr}} ({{fields.date}})"
+            fields:
+              - { label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false }
+              - { label: "Titre (EN)", name: "title_en", widget: "string" }
+              - { label: "Titre (FR)", name: "title_fr", widget: "string" }
+              - { label: "Texte (EN)", name: "text_en", widget: "text" }
+              - { label: "Texte (FR)", name: "text_fr", widget: "text" }
+              - { label: "Photo", name: "image", widget: "image", required: false }
+              - { label: "Vidéo (fichier mp4 ou lien YouTube)", name: "video", widget: "string", required: false }
+              - { label: "Lien Instagram du post", name: "instagram_url", widget: "string", required: false }
 
   # ---------- Équipe ----------
   - name: team
     label: "Équipe"
-    file: content/team.json
-    fields:
+    files:
       - name: team
-        label: "Membres"
-        widget: list
-        summary: "{{fields.name}}"
+        label: "Équipe"
+        file: content/team.json
         fields:
-          - { label: "Nom", name: "name", widget: "string" }
-          - { label: "Rôle (EN)", name: "role_en", widget: "string" }
-          - { label: "Rôle (FR)", name: "role_fr", widget: "string" }
-          - { label: "Bio (EN)", name: "bio_en", widget: "text" }
-          - { label: "Bio (FR)", name: "bio_fr", widget: "text" }
-          - { label: "Photo", name: "photo", widget: "image", required: false }
+          - name: team
+            label: "Membres"
+            widget: list
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Nom", name: "name", widget: "string" }
+              - { label: "Rôle (EN)", name: "role_en", widget: "string" }
+              - { label: "Rôle (FR)", name: "role_fr", widget: "string" }
+              - { label: "Bio (EN)", name: "bio_en", widget: "text" }
+              - { label: "Bio (FR)", name: "bio_fr", widget: "text" }
+              - { label: "Photo", name: "photo", widget: "image", required: false }
 
   # ---------- Sponsors ----------
   - name: sponsors
     label: "Sponsors"
-    file: content/sponsors.json
-    fields:
+    files:
       - name: sponsors
         label: "Sponsors"
-        widget: list
-        summary: "{{fields.name}}"
+        file: content/sponsors.json
         fields:
-          - { label: "Nom", name: "name", widget: "string" }
-          - { label: "Niveau (EN)", name: "tier_en", widget: "string" }
-          - { label: "Niveau (FR)", name: "tier_fr", widget: "string" }
-          - { label: "Description (EN)", name: "description_en", widget: "text" }
-          - { label: "Description (FR)", name: "description_fr", widget: "text" }
-          - { label: "Logo", name: "logo", widget: "image", required: false }
-          - { label: "Site web", name: "url", widget: "string", required: false }
+          - name: sponsors
+            label: "Sponsors"
+            widget: list
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Nom", name: "name", widget: "string" }
+              - { label: "Niveau (EN)", name: "tier_en", widget: "string" }
+              - { label: "Niveau (FR)", name: "tier_fr", widget: "string" }
+              - { label: "Description (EN)", name: "description_en", widget: "text" }
+              - { label: "Description (FR)", name: "description_fr", widget: "text" }
+              - { label: "Logo", name: "logo", widget: "image", required: false }
+              - { label: "Site web", name: "url", widget: "string", required: false }
 
-  # ---------- Informations générales ----------
+  # ---------- Paramètres du site ----------
   - name: site
     label: "Paramètres du site"
-    file: content/site.json
-    fields:
-      - { label: "Email de contact", name: "email", widget: "string" }
-      - { label: "Lien Instagram", name: "instagram_url", widget: "string" }
-      - { label: "Identifiant Instagram", name: "instagram_handle", widget: "string" }
-      - { label: "Nom de l'événement", name: "event_name", widget: "string" }
-      - { label: "Date de l'événement", name: "event_date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false }
-      - { label: "Début du projet", name: "project_start", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false }
+    files:
+      - name: site
+        label: "Paramètres du site"
+        file: content/site.json
+        fields:
+          - { label: "Email de contact", name: "email", widget: "string" }
+          - { label: "Lien Instagram", name: "instagram_url", widget: "string" }
+          - { label: "Identifiant Instagram", name: "instagram_handle", widget: "string" }
+          - { label: "Nom de l'événement", name: "event_name", widget: "string" }
+          - { label: "Date de l'événement", name: "event_date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false }
+          - { label: "Début du projet", name: "project_start", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false }
