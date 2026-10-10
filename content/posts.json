@@ -81,6 +81,27 @@
       "text_fr": "Une étape de plus dans la concrétisation de notre projet Red Bull Miami Flugtag 2026. Place aux essais, aux apprentissages et aux améliorations ! 🚀✈️",
       "title_fr": "🛠️ Premier test de notre chariot !",
       "date": "2026-10-01"
+    },
+    {
+      "date": "2026-10-02",
+      "media": [
+        {
+          "file": "/assets/uploads/proto1.jpeg"
+        },
+        {
+          "file": "/assets/uploads/proto2.jpeg"
+        },
+        {
+          "file": "/assets/uploads/proto3.mp4"
+        },
+        {
+          "file": "/assets/uploads/proto9.jpeg"
+        }
+      ],
+      "text_en": "Time to work on one of the key components of our Red Bull Miami Flugtag 2026 project: the central wing. 🛠️\n\nWe’re building a miniature model to test our design, explore the possibilities, and fine-tune the details before moving on to the full-scale version.\n\nSmall-scale testing, big ambitions! 🚀 Stay tuned for the next steps.\n\n",
+      "title_en": "✈️ Building the heart of our flying machine!",
+      "text_fr": "On s’attaque à l’une des pièces maîtresses de notre projet Red Bull Miami Flugtag 2026 : l’aile centrale. 🛠️\n\nNous concevons et fabriquons un modèle réduit pour tester notre conception, explorer différentes possibilités et ajuster les détails avant de passer à une version à plus grande échelle.\n\nDes tests à petite échelle, mais de grandes ambitions ! 🚀 La suite arrive bientôt.\n\n",
+      "title_fr": "✈️ Construction de l’élément clé de notre machine volante !"
     }
   ]
 }
