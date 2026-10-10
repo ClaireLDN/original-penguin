@@ -428,3 +428,7 @@ body { padding-bottom: 0; }
   .hero-grid { grid-template-columns: 1fr minmax(0, 0.8fr) 0.9fr; gap: 2.5rem; }
   .hero-grid > .header-art img { width: min(100%, 320px); }
 }
+
+/* Remove the stacking context on the hero grid so the penguin can blend (multiply) with the page background */
+.hero .hero-grid { z-index: auto; isolation: auto; }
+.hero-grid > .header-art img { mix-blend-mode: multiply; }
