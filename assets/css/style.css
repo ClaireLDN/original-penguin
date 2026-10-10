@@ -415,3 +415,16 @@ body { padding-bottom: 0; }
 @media (min-width: 1100px) {
   .header-art img { width: min(100%, 440px); }
 }
+
+/* ---------- Hero: text | penguin | sketch, penguin centred between them ---------- */
+.hero-grid > .header-art { padding: 0; margin: 0; justify-content: center; }
+.hero-grid > .header-art img { width: min(100%, 300px); }
+@media (min-width: 900px) {
+  .hero-grid { grid-template-columns: 1fr minmax(0, 0.8fr) 0.9fr; gap: 2rem; }
+  .hero-grid > .header-art img { width: min(100%, 260px); }
+  .hero-image { margin-inline: 0; max-width: 100%; }
+}
+@media (min-width: 1100px) {
+  .hero-grid { grid-template-columns: 1fr minmax(0, 0.8fr) 0.9fr; gap: 2.5rem; }
+  .hero-grid > .header-art img { width: min(100%, 320px); }
+}
