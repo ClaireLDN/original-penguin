@@ -1,9 +1,44 @@
 {
   "team": [
-    { "name": "Team member 1", "role_en": "Role to come", "role_fr": "Rôle à venir", "bio_en": "Bio coming soon.", "bio_fr": "Biographie bientôt disponible.", "photo": "assets/uploads/team-1.jpg" },
-    { "name": "Team member 2", "role_en": "Role to come", "role_fr": "Rôle à venir", "bio_en": "Bio coming soon.", "bio_fr": "Biographie bientôt disponible.", "photo": "assets/uploads/team-2.jpg" },
-    { "name": "Team member 3", "role_en": "Role to come", "role_fr": "Rôle à venir", "bio_en": "Bio coming soon.", "bio_fr": "Biographie bientôt disponible.", "photo": "assets/uploads/team-3.jpg" },
-    { "name": "Sebastien Onaze", "role_en": "Role to come", "role_fr": "Rôle à venir", "bio_en": "Bio coming soon.", "bio_fr": "Biographie bientôt disponible.", "photo": "assets/uploads/team-4.jpg" },
-    { "name": "Xavier Pons", "role_en": "Role to come", "role_fr": "Rôle à venir", "bio_en": "Bio coming soon.", "bio_fr": "Biographie bientôt disponible.", "photo": "assets/uploads/team-5.jpg" }
+    {
+      "name": "Arthur",
+      "photo": "assets/uploads/team-arthur.jpg",
+      "role_en": "Role to come",
+      "role_fr": "Rôle à venir",
+      "bio_en": "Bio coming soon.",
+      "bio_fr": "Biographie bientôt disponible."
+    },
+    {
+      "name": "Xavier Pons",
+      "role_en": "Designer, Builder & Designated Flugtag Pilot! 🚀",
+      "role_fr": "Designer, bâtisseur et pilote officiel du Flugtag ! 🚀",
+      "bio_en": "🌊 Kitesurfer, Aeronautical & Aerospace Engineer, and Licensed Pilot.\nHe's mastered the skies, conquered the waves, and now designed a flying machine for a bird that was never meant to fly!",
+      "bio_fr": "🌊 Kitesurfeur, ingénieur aéronautique et spatial, et pilote breveté.\nIl a dompté les cieux, conquis les vagues, et dessiné une machine volante pour un oiseau qui n'était pas censé voler !",
+      "photo": "assets/uploads/team-xavier.jpg"
+    },
+    {
+      "name": "Sebastien",
+      "role_en": "Team Recruiter, Sponsorship Whiz, Skit Choreographer, Fashion Advisor, Builder & Launcher!",
+      "role_fr": "Recruteur de l'équipe, expert en sponsoring, chorégraphe des sketchs, conseiller mode, bâtisseur et lanceur !",
+      "bio_en": "💻 Computer Science Engineer & Windsurfer. 🌊\nHe rallied the flock, knows how to harness the wind, and makes sure our penguins take off in style!",
+      "bio_fr": "💻 Ingénieur informatique et véliplanchiste. 🌊\nIl a rassemblé la troupe, sait dompter le vent, et veille à ce que nos pingouins décollent avec style !",
+      "photo": "assets/uploads/team-sebastien.jpg"
+    },
+    {
+      "name": "Simon",
+      "role_en": "Builder, mover, launcher & Team USA Dragon Boat steersman! 🇺🇸🐉",
+      "role_fr": "Bâtisseur, déménageur, lanceur et barreur de dragon-boat de l'équipe USA ! 🇺🇸🐉",
+      "bio_en": "From steering dragons to guiding penguins… what could possibly go wrong? 😂",
+      "bio_fr": "Du barreau des dragons au pilotage de pingouins… qu'est-ce qui pourrait mal tourner ? 😂",
+      "photo": "assets/uploads/team-simon.jpg"
+    },
+    {
+      "name": "Maxime",
+      "photo": "assets/uploads/team-maxime.jpg",
+      "role_en": "Role to come",
+      "role_fr": "Rôle à venir",
+      "bio_en": "Bio coming soon.",
+      "bio_fr": "Biographie bientôt disponible."
+    }
   ]
 }
