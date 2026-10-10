@@ -406,3 +406,12 @@ body { padding-bottom: 0; }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; scroll-behavior: auto !important; }
 }
+
+/* ---------- Header artwork: blends into the page background ---------- */
+.header-art { display: flex; justify-content: center; padding: 1rem 0 0; background: transparent; }
+.header-art img {
+  width: min(100%, 360px); height: auto; mix-blend-mode: multiply; background: transparent;
+}
+@media (min-width: 1100px) {
+  .header-art img { width: min(100%, 440px); }
+}

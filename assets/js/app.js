@@ -241,7 +241,7 @@
         <div class="avatar">${avatar}</div>
         <h3>${esc(name)}</h3>
         <p class="role">${esc(pick(m, "role") || t("role_tbc"))}</p>
-        <p>${esc(pick(m, "bio") || t("bio_tbc"))}</p>
+        <p>${esc(pick(m, "bio") || t("bio_tbc")).replace(/\n/g, "<br>")}</p>
       </article>`;
   }
 
