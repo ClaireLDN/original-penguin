@@ -432,3 +432,11 @@ body { padding-bottom: 0; }
 /* Remove the stacking context on the hero grid so the penguin can blend (multiply) with the page background */
 .hero .hero-grid { z-index: auto; isolation: auto; }
 .hero-grid > .header-art img { mix-blend-mode: multiply; }
+
+/* ---------- Timeline centred on the page ---------- */
+.feed-list { margin-inline: auto; }
+@media (min-width: 900px) { .feed-list { margin-inline: auto; } }
+
+/* Mobile: a frame never sits empty while the image loads */
+.slide { background: var(--navy); }
+.slide img { background: var(--navy); }

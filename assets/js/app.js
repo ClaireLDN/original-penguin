@@ -136,9 +136,9 @@
     }
     if (!m.file) return "";
     if (/\.(mp4|webm|mov)$/i.test(m.file)) {
-      return `<video controls playsinline preload="metadata"${m.poster ? ` poster="${esc(m.poster)}"` : ""} src="${esc(m.file)}"></video>`;
+      return `<video controls preload="metadata"${m.poster ? ` poster="${esc(m.poster)}"` : ""} src="${esc(m.file)}"></video>`;
     }
-    return `<img src="${esc(m.file)}" alt="${esc(alt)}" loading="lazy">`;
+    return `<img src="${esc(m.file)}" alt="${esc(alt)}" decoding="async">`;
   }
 
   function sliderHTML(items, alt) {
@@ -154,6 +154,16 @@
         <button type="button" class="sl-btn sl-next" data-dir="1" aria-label="${t("slide_next")}">›</button>
         <div class="sl-dots">${dots}</div>
       </div>`;
+  }
+
+  /* ---------- Fullscreen video (iPhone uses its own video fullscreen) ---------- */
+  function goFullscreen(v) {
+    try {
+      if (v.requestFullscreen) v.requestFullscreen();
+      else if (v.webkitEnterFullscreen) v.webkitEnterFullscreen();
+    } catch (err) {
+      /* the browser refused: the video simply plays inline */
+    }
   }
 
   /* ---------- Timeline ---------- */
@@ -204,6 +214,16 @@
     feed.dataset.bound = "1";
 
     feed.addEventListener("click", (e) => {
+      const video = e.target.closest("video");
+      if (video) {
+        if (video.paused) {
+          goFullscreen(video);
+          video.play().catch(() => {});
+        } else {
+          video.pause();
+        }
+        return;
+      }
       const slider = e.target.closest(".slider");
       if (!slider) return;
       const slides = slider.querySelector(".slides");
