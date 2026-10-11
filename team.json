@@ -1,0 +1,44 @@
+{
+  "team": [
+    {
+      "name": "Arthur",
+      "photo": "assets/uploads/team-arthur.jpg",
+      "role_en": "Assistant Builder, Launcher & Future High-Flyer!",
+      "role_fr": "Assistant bâtisseur, lanceur et futur pilote de haut vol !",
+      "bio_en": "Meet Arthur!\nSurfer, Glider Pilot & Outdoor Adventure Enthusiast.\nHigh school senior, ready to spread his wings and take on the world!\nHe's already learned to ride the waves, soar through the skies, and embrace adventure.",
+      "bio_fr": "Je vous présente Arthur !\nSurfeur, pilote de planeur et passionné d'aventure en plein air.\nLycéen en terminale, prêt à déployer ses ailes et à conquérir le monde !\nIl a déjà appris à dompter les vagues, à voler dans les airs et à vivre l'aventure."
+    },
+    {
+      "name": "Xavier Pons",
+      "role_en": "Designer, Builder & Designated Flugtag Pilot! 🚀",
+      "role_fr": "Designer, bâtisseur et pilote officiel du Flugtag ! 🚀",
+      "bio_en": "🌊 Kitesurfer, Aeronautical & Aerospace Engineer, and Licensed Pilot.\nHe's mastered the skies, conquered the waves, and now designed a flying machine for a bird that was never meant to fly!",
+      "bio_fr": "🌊 Kitesurfeur, ingénieur aéronautique et spatial, et pilote breveté.\nIl a dompté les cieux, conquis les vagues, et dessiné une machine volante pour un oiseau qui n'était pas censé voler !",
+      "photo": "assets/uploads/team-xavier.jpg"
+    },
+    {
+      "name": "Sebastien",
+      "role_en": "Team Recruiter, Sponsorship Whiz, Skit Choreographer, Fashion Advisor, Builder & Launcher!",
+      "role_fr": "Recruteur de l'équipe, expert en sponsoring, chorégraphe des sketchs, conseiller mode, bâtisseur et lanceur !",
+      "bio_en": "💻 Computer Science Engineer & Windsurfer. 🌊\nHe rallied the flock, knows how to harness the wind, and makes sure our penguins take off in style!",
+      "bio_fr": "💻 Ingénieur informatique et véliplanchiste. 🌊\nIl a rassemblé la troupe, sait dompter le vent, et veille à ce que nos pingouins décollent avec style !",
+      "photo": "assets/uploads/team-sebastien.jpg"
+    },
+    {
+      "name": "Simon",
+      "role_en": "Builder, mover, launcher & Team USA Dragon Boat steersman! 🇺🇸🐉",
+      "role_fr": "Bâtisseur, déménageur, lanceur et barreur de dragon-boat de l'équipe USA ! 🇺🇸🐉",
+      "bio_en": "From steering dragons to guiding penguins… what could possibly go wrong? 😂",
+      "bio_fr": "Du barreau des dragons au pilotage de pingouins… qu'est-ce qui pourrait mal tourner ? 😂",
+      "photo": "assets/uploads/team-simon.jpg"
+    },
+    {
+      "name": "Maxime",
+      "photo": "assets/uploads/team-maxime.jpg",
+      "role_en": "Launcher, Future Aerospace Engineer & Master of Keeping His Cool!",
+      "role_fr": "Lanceur, futur ingénieur aérospatial et maître du sang-froid !",
+      "bio_en": "🎓 Graduating this year in Mechanical & Aerospace Engineering.\n😎 Laid-back by nature, ambitious by design! He makes it look effortless, but behind that cool attitude is a sharp mind, serious dedication, and sky-high ambitions! 🚀",
+      "bio_fr": "🎓 Diplômé cette année en génie mécanique et aérospatial.\n😎 Décontracté de nature, ambitieux par conception ! Il fait tout en apparence sans effort, mais derrière ce calme se cachent un esprit vif, un engagement sérieux et des ambitions qui visent le ciel ! 🚀"
+    }
+  ]
+}
