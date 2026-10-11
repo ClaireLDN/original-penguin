@@ -3,10 +3,10 @@
     {
       "name": "Arthur",
       "photo": "assets/uploads/team-arthur.jpg",
-      "role_en": "Role to come",
-      "role_fr": "Rôle à venir",
-      "bio_en": "Bio coming soon.",
-      "bio_fr": "Biographie bientôt disponible."
+      "role_en": "Assistant Builder, Launcher & Future High-Flyer!",
+      "role_fr": "Assistant bâtisseur, lanceur et futur pilote de haut vol !",
+      "bio_en": "Meet Arthur!\nSurfer, Glider Pilot & Outdoor Adventure Enthusiast.\nHigh school senior, ready to spread his wings and take on the world!\nHe's already learned to ride the waves, soar through the skies, and embrace adventure.",
+      "bio_fr": "Je vous présente Arthur !\nSurfeur, pilote de planeur et passionné d'aventure en plein air.\nLycéen en terminale, prêt à déployer ses ailes et à conquérir le monde !\nIl a déjà appris à dompter les vagues, à voler dans les airs et à vivre l'aventure."
     },
     {
       "name": "Xavier Pons",
@@ -35,10 +35,10 @@
     {
       "name": "Maxime",
       "photo": "assets/uploads/team-maxime.jpg",
-      "role_en": "Role to come",
-      "role_fr": "Rôle à venir",
-      "bio_en": "Bio coming soon.",
-      "bio_fr": "Biographie bientôt disponible."
+      "role_en": "Launcher, Future Aerospace Engineer & Master of Keeping His Cool!",
+      "role_fr": "Lanceur, futur ingénieur aérospatial et maître du sang-froid !",
+      "bio_en": "🎓 Graduating this year in Mechanical & Aerospace Engineering.\n😎 Laid-back by nature, ambitious by design! He makes it look effortless, but behind that cool attitude is a sharp mind, serious dedication, and sky-high ambitions! 🚀",
+      "bio_fr": "🎓 Diplômé cette année en génie mécanique et aérospatial.\n😎 Décontracté de nature, ambitieux par conception ! Il fait tout en apparence sans effort, mais derrière ce calme se cachent un esprit vif, un engagement sérieux et des ambitions qui visent le ciel ! 🚀"
     }
   ]
 }
