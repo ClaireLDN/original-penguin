@@ -136,7 +136,10 @@
     }
     if (!m.file) return "";
     if (/\.(mp4|webm|mov)$/i.test(m.file)) {
-      return `<video controls preload="metadata"${m.poster ? ` poster="${esc(m.poster)}"` : ""} src="${esc(m.file)}"></video>`;
+      // Poster = a still image of the video (x.mp4 -> x-poster.jpg), so the thumbnail is never blank on phones.
+      const poster = m.poster || m.file.replace(/\.(mp4|webm|mov)$/i, "-poster.jpg");
+      // playsinline keeps the video inside the slide on iPhone (so its first frame shows); fullscreen is handled on click.
+      return `<video controls playsinline webkit-playsinline preload="metadata" poster="${esc(poster)}" src="${esc(m.file)}"></video>`;
     }
     return `<img src="${esc(m.file)}" alt="${esc(alt)}" decoding="async">`;
   }
