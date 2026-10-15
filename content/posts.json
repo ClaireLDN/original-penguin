@@ -223,7 +223,12 @@
       "title_fr": "Structure est finie",
       "date": "2026-10-12",
       "text_en": "Structure is done ",
-      "text_fr": "Structure est finie"
+      "text_fr": "Structure est finie",
+      "media": [
+        {
+          "file": "/assets/uploads/structure-is-done-redbullflugtag-redbullflugtag-miami.mp4"
+        }
+      ]
     }
   ]
 }
