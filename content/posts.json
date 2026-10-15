@@ -186,7 +186,9 @@
       ],
       "date": "2026-10-07",
       "title_en": "FROM CONCEPT TO 3D MODEL — BUILDING OUR LAUNCH CART!",
-      "title_fr": "DU CONCEPT À LA MODÉLISATION 3D — NOTRE KART DE LANCEMENT PREND FORME !"
+      "title_fr": "DU CONCEPT À LA MODÉLISATION 3D — NOTRE KART DE LANCEMENT PREND FORME !",
+      "text_en": "FROM CONCEPT TO 3D MODEL — BUILDING OUR LAUNCH CART!",
+      "text_fr": "DU CONCEPT À LA MODÉLISATION 3D — NOTRE KART DE LANCEMENT PREND FORME !"
     },
     {
       "date": "2026-10-08",
@@ -196,7 +198,9 @@
         }
       ],
       "title_en": "Teaching a penguin old tricks!",
-      "title_fr": "On n’apprend pas de nouvelles astuces à un vieux pingouin "
+      "title_fr": "On n’apprend pas de nouvelles astuces à un vieux pingouin ",
+      "text_en": "Teaching a penguin old tricks!",
+      "text_fr": "On n’apprend pas de nouvelles astuces à un vieux pingouin "
     },
     {
       "date": "2026-10-09",
@@ -209,7 +213,17 @@
         }
       ],
       "title_en": "Our Pilot’s in the Lab!",
-      "title_fr": "Notre pilote nous rend visite au labo !"
+      "title_fr": "Notre pilote nous rend visite au labo !",
+      "text_en": "Our Pilot’s in the Lab!",
+      "text_fr": "Notre pilote nous rend visite au labo !"
+    },
+    {
+      "instagram_url": "https://www.instagram.com/p/DeZywLAOvaO/",
+      "title_en": "Structure is done ",
+      "title_fr": "Structure est finie",
+      "date": "2026-10-12",
+      "text_en": "Structure is done ",
+      "text_fr": "Structure est finie"
     }
   ]
 }
