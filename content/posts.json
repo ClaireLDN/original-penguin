@@ -268,6 +268,24 @@
       "title_fr": "🐧✈️ On dit que les manchots ne savent pas voler. Nous, on dit : regardez-nous bien ! 🚀",
       "text_fr": "🐧✈️ On dit que les manchots ne savent pas voler. Nous, on dit : regardez-nous bien ! 🚀",
       "text_en": "They say penguins can’t fly. We say, watch us! 🐧✈️"
+    },
+    {
+      "date": "2026-10-22",
+      "text_fr": "Un véritable travail de patience, de précision et de persévérance pour toute l’équipe. Chaque détail compte, et chaque jour nous rapproche un peu plus du résultat final.\n\nPetit à petit, le projet prend forme ! 💪✨",
+      "title_fr": "Un long travail de mise en place de la toile plastique… 🛠️",
+      "title_en": "A long process of installing the plastic sheeting… 🛠️",
+      "text_en": "A true test of patience, precision, and perseverance for the whole team. Every detail matters, and every day brings us one step closer to the final result.\n\nLittle by little, the project is taking shape! 💪✨",
+      "media": [
+        {
+          "file": "/assets/uploads/image_2.jpg"
+        },
+        {
+          "file": "/assets/uploads/image_3.jpg"
+        },
+        {
+          "file": "/assets/uploads/1.jpeg"
+        }
+      ]
     }
   ]
 }
