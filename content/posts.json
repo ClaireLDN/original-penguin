@@ -310,6 +310,18 @@
           "file": "/assets/uploads/getting-there.mp4"
         }
       ]
+    },
+    {
+      "date": "2026-10-26",
+      "text_fr": "Pas le temps de se reposer, il faut avancer ! 🔧 Chaque jour, chaque détail, chaque effort nous rapproche du résultat final.\n\n",
+      "text_en": "No time to chill, it's time to build! 🔧 Every day, every detail, every effort brings us closer to the finish line.",
+      "title_en": "PENGUINS IN ACTION! 🐧💪",
+      "title_fr": " LES PENGUINS EN ACTION ! 🐧💪",
+      "media": [
+        {
+          "file": "/assets/uploads/whatsapp-video-2026-10-25-at-04.04.41-1-.mp4"
+        }
+      ]
     }
   ]
 }
